@@ -1,0 +1,593 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    margin: 0;
+    padding: 0;  
+}
+
+.text-svg {    
+    display: flex;
+    width: 100%;
+    overflow: hidden; 
+}
+
+.left-side {
+    background-color: #16263D;
+    flex: 40%; 
+    display: flex;
+    justify-content: center; 
+    padding: 20px; 
+    
+    height: auto;
+}
+.main {
+    
+    
+    position : absolute;
+    left: 30%;
+    top: 7%;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1;
+    
+}
+
+.main-1{
+    height: 280px;
+    width: 280px;
+    position : absolute;
+    left: 30%;
+    top: 7%;
+    border-radius: 50%;
+    background-color: #16263D;
+    
+}
+.main-position{
+    position: absolute;
+    top: 107%;
+    left: 30%;
+    background-color: #0E103B;
+
+}
+.main-position-3{
+    position: absolute;
+    top: 207%;
+    left: 30%;
+    background-color: #4B27CB;
+    
+}
+.main-position-4{
+    position: absolute;
+    top: 307%;
+    left: 30%;
+    background-color: #6511A8;
+    
+}
+.main-position-5{
+    position: absolute;
+    top: 407%;
+    left: 30%;
+    background-color: #032B91;
+    
+}
+.main-position-6{
+    position: absolute;
+    top: 507%;
+    left: 30%;
+    background-color: #01834C;
+    
+}
+.main-position-7{
+    position: absolute;
+    top: 607%;
+    left: 30%;
+    background-color: #1262E8;
+    
+}
+.title {
+    color: white;
+    
+    z-index: 2;
+}
+.title-position{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0; 
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 0; 
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+}
+
+.ui {
+    text-align: end;
+}
+
+.right-side {
+    
+    flex: 60%; 
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    height: 100vh; 
+    z-index: -1;
+   
+}
+.right-side-color{ 
+    background-color: black;;
+}
+
+.right-side img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px; 
+}
+
+.mobile {
+    height: 220px;
+    width: 210px;
+}
+
+.burger {
+    height: 250px;
+    width: 250px;
+}
+
+
+.footer {
+    color: white;
+    width: 35%;
+    
+
+}
+.footer-position{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    
+}
+
+.footer > h1 {
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 15px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 320;
+    font-style: normal;
+    padding: 3px;
+}
+
+h3 {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 350;
+    font-style: normal;
+    padding: 0;
+    margin-top: 10%;
+    font-size: 1.2rem;
+}
+
+.skip-left {
+    position: absolute;
+    left: 85%;
+    bottom: 8%;
+    
+}
+.skip{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+#green {
+    position: relative;
+    bottom: 28%;
+    right:6.5%;
+}
+
+#five {
+    position: relative;
+    left: 18%;
+    bottom: 5%;
+}
+
+#three {
+    position: relative;
+    bottom: 40%;
+    right: 10%;
+}
+
+#two {
+    position: relative;
+    top: 10%;
+    
+}
+
+#one {
+    margin-bottom: 30%;
+    
+  
+}
+
+.message {
+    font-size: 1.5rem;
+    height: 25px;
+    
+    
+    border-radius: 50%;
+    
+    z-index: 1;
+}
+.message-position{
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+}
+
+.message>i {
+    border-radius: 50%;
+    color: white;
+    background-color:#2589EF ;
+    padding: 10px;
+    
+}
+
+
+.lside-2{
+    background-color: #0E103B;
+    
+}
+
+
+.title-2{
+    
+    position: absolute;
+    top: 120%;
+    left: 24%;
+    
+}
+
+.footer-position-2{
+    
+    position: absolute;
+    bottom: -92.5%;
+    left: 5%;
+    width: 35%;
+}
+
+.skip-2{
+    
+    position: absolute;
+    left: 85%;
+    bottom: 8%;
+
+}
+.right-side-color-2{
+    background-color: #121544;
+   
+    
+}
+#seven{
+    position: relative;
+    bottom: 27%;
+    right: -10%;
+}
+
+.message-position-2{
+    position: absolute;
+    bottom: -96%;
+    right: 1%;
+}
+
+
+.lside-3{
+     background-color: #4B27CB;
+    
+}
+.right-side-color-3{
+    background-color: #1C0263;
+}
+.title-3{
+    position: absolute;
+    top:223%;
+    left: 25%;
+}
+.footer-position-3{
+    position: absolute;
+    bottom: -192.5%;
+    
+}
+.skip-3{
+    position: absolute;
+    left: 85%;
+    bottom: 8%;
+}
+.message-position-3{
+    position: absolute;
+    bottom: -196%;
+    right: 1%;
+}
+.coming-soon{
+    font-weight: 50;
+}
+
+#six{
+    position: relative;
+    left: 7%;
+    margin-top: 30%;
+
+}
+
+.lside-4{
+    background-color: #6511A8;
+}
+.right-side-color-4{
+    background-color: #CDCBCF;
+}
+
+.footer-position-4{
+    position: absolute;
+    bottom: -292.5%;
+    left: 5%; 
+}
+.title-4{
+    position: absolute;
+    top: 325%;
+    left: 19%;
+}
+.message-position-4{
+    position: absolute;
+    top: 389%;
+    right: 1%;
+}
+#eight{
+    position: relative;
+    left: 5%;
+}
+.lside-5{
+    background-color: #032B91;
+}
+
+.right-side-5{
+    background-image: url(./images/interior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.footer-position-5{
+    position: absolute;
+    bottom: -392.5%;
+    left: 5%;
+}
+.title-5{
+    position: absolute;
+    top: 425%;
+    left: 21.5%;
+}
+.message-position-5{
+    position: absolute;
+    top: 489%;
+    right: 1%;
+}
+.lside-6{
+    background-color: #01834C;
+}
+.right-side-color-6{
+    background-color: #00B66A;
+}
+.footer-position-6{
+    position: absolute;
+    bottom: -492.5%;
+    left: 5%;
+}
+.title-6{
+    position: absolute;
+    top: 525%;
+    left: 28%;
+}
+.message-position-6{
+    position: absolute;
+    top: 589%;
+    right: 1%;
+
+}
+#ten{
+    position: relative;
+    left: 15%;
+    top: 25%;
+
+}
+#eleven{
+    position:relative;
+    top: 15%;
+
+
+}
+
+
+.lside-7{
+    background-color: #1262E8;
+}
+
+.right-side-color-7{
+    background-color: #23CFEB;
+}
+.footer-position-7{
+    position: absolute;
+    bottom: -592.5%;
+    left: 5%;
+}
+.title-7{
+    position: absolute;
+    top: 625%;
+    left: 25%;
+
+}
+
+.message-position-7{
+    position: absolute;
+    top: 689%;
+    right: 1%;
+}
+#twelve{
+    position: relative;
+    left: 8%;
+    bottom: 17%;
+    margin-left: 7.2%;
+}
+#thirteen{
+    position: relative;
+    left: 5%;
+    bottom: 5%;
+    
+}
+#fourteen{
+    position: relative;
+    left: 2%;
+    top: 20%;
+
+}
+#fifteen{
+    position: relative;
+    right: 6.5%;
+    bottom: 14%;
+}
+#sixteen{
+    position: relative;
+    right: 9%;
+ 
+
+}
+.mobile-view{
+    display: none;
+}
+@media (max-width:700px){
+
+
+.destop-size{
+    display: none;
+   
+}
+.mobile-view{
+    display: contents;
+    background-color: red;
+    
+}
+
+#carouselExampleControls{
+    background-color: brown;
+    height: 100vh;
+}
+
+
+.mobile-format{
+    display: flex;
+    flex-direction: column;
+     
+}
+
+
+
+.mobile-bg-format {
+    
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    
+
+}
+.pic-1{
+    background-image: url("./mobile-ss/1.png");
+}
+
+.mobile-footer {
+    
+    height: 50vh;
+    
+}
+.footer-color-1{
+    background-color: #16263D;
+}
+
+.footer-space{
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 25%;
+
+}
+
+.pic-2{
+    background-image: url("mobile-ss/2.png");
+}
+.footer-color-2{
+    background-color: #0E103B;
+}
+
+.pic-3{
+    background-image: url("mobile-ss/3.png");
+}
+.footer-color-3{
+    background-color: #4B27CB;
+}
+
+
+.pic-4{
+    background-image: url("mobile-ss/4.png");
+}
+.footer-color-4{
+    background-color: #6511A8;
+}
+
+.pic-5{
+    background-image: url("mobile-ss/5.png");
+}
+.footer-color-5{
+    background-color: #032B91;
+}
+
+.pic-6{
+    background-image: url("mobile-ss/6.png");
+}
+.footer-color-6{
+    background-color: #01834C;
+}
+
+
+.pic-7{
+    background-image: url("mobile-ss/7.png");
+}
+.footer-color-7{
+    background-color: #1262E8;
+}
+
+
+
+
+}
+
+
